@@ -1,0 +1,7 @@
+{
+   "description": "arm-none-eabi-gcc",
+   "name": "toolchain-rp2040-earlephilhower",
+   "system": [ "darwin_x86_64", "darwin_arm64" ],
+   "url": "https://github.com/earlephilhower/pico-quick-toolchain",
+   "version": "5.100300.220714"
+}

@@ -1,0 +1,7 @@
+{
+   "description": "elf2uf2-utility",
+   "name": "tool-elf2uf2-rp2040-earlephilhower",
+   "system": [ "darwin_x86_64", "darwin_arm64" ],
+   "url": "https://github.com/earlephilhower/pico-quick-toolchain",
+   "version": "5.100300.220714"
+}

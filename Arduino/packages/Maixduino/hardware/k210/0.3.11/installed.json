@@ -1,0 +1,271 @@
+{
+  "packages": [
+    {
+      "name": "Maixduino",
+      "maintainer": "Sipeed",
+      "websiteUrl": "https://maixduino.sipeed.com",
+      "Url": "http://dl.sipeed.com/MAIX/Maixduino/package_Maixduino_k210_index.json",
+      "email": "support@sipeed.com",
+      "platforms": [
+        {
+          "name": "Maixduino(k210)",
+          "architecture": "k210",
+          "version": "0.3.11",
+          "deprecated": false,
+          "category": "K210",
+          "url": "http://dl.cdn.sipeed.com/Maixduino_core_v0.3.11.zip",
+          "archiveFileName": "Maixduino_core_v0.3.11.zip",
+          "checksum": "SHA-256:03A7A7E245494460E581883AEB19CE01D7037E327940F5DF025971ECCA3AF235",
+          "size": 1905004,
+          "boards": [
+            {
+              "name": "Sipeed Maix One Dock Board"
+            },
+            {
+              "name": "Sipeed Maix Bit Board"
+            },
+            {
+              "name": "Sipeed Maix Bit-Mic Board"
+            },
+            {
+              "name": "Sipeed Maix Go Board"
+            },
+            {
+              "name": "Sipeed Maixduino Board"
+            },
+            {
+              "name": "LamLoei AIoT DaaN Board"
+            }
+          ],
+          "help": {},
+          "toolsDependencies": [
+            {
+              "packager": "Maixduino",
+              "name": "riscv64-unknown-elf-gcc",
+              "version": "8.2.0_20190409"
+            },
+            {
+              "packager": "Maixduino",
+              "name": "kflash",
+              "version": "1.0.2"
+            },
+            {
+              "packager": "Maixduino",
+              "name": "python3",
+              "version": "3.7.2-post1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "python3",
+          "version": "3.7.2-post1",
+          "systems": [
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-3.7.2.post1-embed-win32v2a.zip",
+              "archiveFileName": "python3-3.7.2.post1-embed-win32v2a.zip",
+              "size": 6428926,
+              "checksum": "SHA-256:f57cb2daf86176d2929e7c58990c2ac32554e3219d454dcac10e464ddda35bf2"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-3.7.2.post1-embed-win32v2a.zip",
+              "archiveFileName": "python3-3.7.2.post1-embed-win32v2a.zip",
+              "size": 6428926,
+              "checksum": "SHA-256:f57cb2daf86176d2929e7c58990c2ac32554e3219d454dcac10e464ddda35bf2"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "size": 292,
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "size": 292,
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "size": 292,
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-macosx-portable.tar.gz",
+              "archiveFileName": "python3-macosx-portable.tar.gz",
+              "size": 25494144,
+              "checksum": "SHA-256:01a5bf1fa264c6f04cfaadf4c6e9f6caaacb6833ef40104dfbe953fcdb9bca1c"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/earlephilhower/esp-quick-toolchain/releases/download/2.5.0-4/python3-via-env.tar.gz",
+              "archiveFileName": "python3-via-env.tar.gz",
+              "size": 292,
+              "checksum": "SHA-256:c9237bfe0f62842d7187a39495baa4a7e3ab8b87c0b433614294b023cf0bc0f3"
+            }
+          ]
+        },
+        {
+          "name": "riscv64-unknown-elf-gcc",
+          "version": "8.2.0_20190409",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dl.cdn.sipeed.com/kendryte-toolchain-win-amd64-8.2.0-20190409.zip",
+              "archiveFileName": "kendryte-toolchain-win-amd64-8.2.0-20190409.zip",
+              "size": 53852204,
+              "checksum": "SHA-256:049CAA0DCC987BB67FCE9EF8B1F80824EFB8077223C10B27F2CED87C100A94F4"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://dl.cdn.sipeed.com/kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.bz2",
+              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.bz2",
+              "size": 47838868,
+              "checksum": "SHA-256:4329485768FB2D03F4A1F8D752A0F217C7638A0A5D8BE79CFC2B6B0CEE823CD0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dl.cdn.sipeed.com/kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+              "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+              "size": 48565570,
+              "checksum": "SHA-256:786486C81E4CCF87227C3EA228CDC8721228DEE60160341725DAEE57567B775D"
+            }
+          ]
+        },
+        {
+          "name": "riscv64-unknown-elf-gcc",
+          "version": "8.2.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dl.cdn.sipeed.com/win_toolchain_v8.2.0_20190213.zip",
+              "archiveFileName": "win_toolchain_v8.2.0_20190213.zip",
+              "size": 487337534,
+              "checksum": "SHA-256:9af21c336c8ccb405a10d715c480f29c5996d3932adf6955993ca4b10502b72b"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://dl.cdn.sipeed.com/linux_kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
+              "archiveFileName": "linux_kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
+              "size": 360536176,
+              "checksum": "SHA-256:aa2fcc76ff61261b3667a422d4f67dec19c4547474bff4ebadaa1258b87985da"
+            }
+          ]
+        },
+        {
+          "name": "openocd",
+          "version": "0.2.3",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dl.cdn.sipeed.com/win_kendryte-openocd-0.2.3-win32.zip",
+              "archiveFileName": "win_kendryte-openocd-0.2.3-win32.zip",
+              "size": 12992801,
+              "checksum": "SHA-256:69f917de5535c807a9caaf8ec3e1411fc0ef3458ccf3354a11dde76031ca7b03"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://dl.cdn.sipeed.com/linux_kendryte-openocd-0.2.3-ubuntu64.tar.gz",
+              "archiveFileName": "linux_kendryte-openocd-0.2.3-ubuntu64.tar.gz",
+              "size": 4478964,
+              "checksum": "SHA-256:1b2e12b9bae116aa30f6b47f2ffa473878229a2797a62630f19db2f53c08f2e6"
+            }
+          ]
+        },
+        {
+          "name": "kflash",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dl.cdn.sipeed.com/win_kflash_py_v1.0.0.zip",
+              "archiveFileName": "win_kflash_py_v1.0.0.zip",
+              "size": 5900033,
+              "checksum": "SHA-256:e2c1f217bb62bd30fd7d5a43aa7931b1144098f6d13ff9ed2a0c428130aaeec1"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://dl.cdn.sipeed.com/linux_kflash_v1.0.0.zip",
+              "archiveFileName": "linux_kflash_v1.0.0.zip",
+              "size": 63387,
+              "checksum": "SHA-256:d409ef1945c53b148bbf43832b25901c58dc9e1a18f431bd6992fdcc8f363630"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dl.cdn.sipeed.com/linux_kflash_v1.0.0.zip",
+              "archiveFileName": "linux_kflash_v1.0.0.zip",
+              "size": 63387,
+              "checksum": "SHA-256:d409ef1945c53b148bbf43832b25901c58dc9e1a18f431bd6992fdcc8f363630"
+            }
+          ]
+        },
+        {
+          "name": "kflash",
+          "version": "1.0.2",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dl.cdn.sipeed.com/win_kflash_py_v1.0.2.zip",
+              "archiveFileName": "win_kflash_py_v1.0.2.zip",
+              "size": 6580553,
+              "checksum": "SHA-256:6DC3F31F51F7B041B56E47B4CCDF856854E2D48B0E5B11CEB66308BC961DDB75"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://dl.cdn.sipeed.com/linux_kflash_v1.0.2.zip",
+              "archiveFileName": "linux_kflash_v1.0.2.zip",
+              "size": 74362,
+              "checksum": "SHA-256:943D722F15D7E8B352EEB6F083387E0BF3CD1B5212F4B840E71E3F45FA10D10F"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dl.cdn.sipeed.com/linux_kflash_v1.0.2.zip",
+              "archiveFileName": "linux_kflash_v1.0.2.zip",
+              "size": 74362,
+              "checksum": "SHA-256:943D722F15D7E8B352EEB6F083387E0BF3CD1B5212F4B840E71E3F45FA10D10F"
+            }
+          ]
+        },
+        {
+          "name": "kflash",
+          "version": "1.0.1",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dl.cdn.sipeed.com/win_kflash_py_v1.0.1.zip",
+              "archiveFileName": "win_kflash_py_v1.0.1.zip",
+              "size": 6504280,
+              "checksum": "SHA-256:18D379B82E0BECE04BB163E9E5ED6A00925E8632DA033833FD2070104C3D5DFD"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://dl.cdn.sipeed.com/linux_kflash_v1.0.1.zip",
+              "archiveFileName": "linux_kflash_v1.0.1.zip",
+              "size": 72213,
+              "checksum": "SHA-256:99862508BCE0EFEE0A89866A19717FBD70A1A48BFC6BF91BD00841B90749FE06"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dl.cdn.sipeed.com/linux_kflash_v1.0.1.zip",
+              "archiveFileName": "linux_kflash_v1.0.1.zip",
+              "size": 72213,
+              "checksum": "SHA-256:99862508BCE0EFEE0A89866A19717FBD70A1A48BFC6BF91BD00841B90749FE06"
+            }
+          ]
+        }
+      ],
+      "help": {
+        "online": "https://maixduino.sipeed.com"
+      }
+    }
+  ],
+  "IsTrusted": false
+}
